@@ -1,0 +1,65 @@
+# Tic Tac Toe Game using Python and NumPy 🎮
+
+## Overview
+
+This project implements the classic **Tic Tac Toe** game using **Python** and **NumPy**.  
+The game is played on a **3×3 grid** where two players take turns placing their symbols (**X** and **O**) until one player wins or the game ends in a draw.
+
+The purpose of this project is to practice:
+
+- Python programming
+- Working with NumPy arrays
+- Implementing game logic
+- Building interactive programs
+
+---
+
+## Game Rules
+
+- The game board is a **3 × 3 grid**.
+- There are **two players**:
+  - Player 1 → **X**
+  - Player 2 → **O**
+- Players take turns placing their symbol in an empty cell.
+- A player wins if they form a line:
+  - Horizontally
+  - Vertically
+  - Diagonally
+- If the board is full and no player wins, the game ends in a **draw**.
+
+---
+
+## Implementation Steps
+
+The program follows these steps:
+
+1. **Game Board Setup**
+   - Create a 3×3 board using a NumPy array.
+
+2. **Player Input**
+   - Players enter the row and column of their move.
+
+3. **Game Logic**
+   - The program checks after each move if a player has won.
+
+4. **Game Loop**
+   - The game continues until a player wins or the board is full.
+
+5. **Two Player Mode**
+   - The game supports **Player vs Player** gameplay.
+
+---
+
+## Technologies Used
+
+- **Python**
+- **NumPy**
+
+---
+
+## How to Run
+
+1. Install NumPy if it is not installed:
+
+```bash
+pip install numpy
